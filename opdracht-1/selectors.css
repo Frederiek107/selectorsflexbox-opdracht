@@ -33,3 +33,44 @@
 /* Target alle heading tags op de pagina en zet hun font-family op 'Bree Serif', serif */
 
 
+#headerimg {
+    width: 100%;
+}
+
+ul {
+    color: hsl(110, 29%, 52%);
+}
+
+.spanclass {
+  font-size: smaller;
+}
+
+a {
+    text-decoration: initial;
+    color: hsl(359, 79%, 56%);
+}
+
+a:hover {
+    color: hsl(290, 79%, 56%);
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main a:visited {
+    text-decoration: line-through;
+}
+
+input[value=Signup] {
+    background-color: hsl(790, 39%, 56%);
+}
+
+input[type="text"]:focus {
+    border: solid;
+    border-color: blue;
+}
+
+header{
+    font-family: 'Bree Serif', serif;
+}
